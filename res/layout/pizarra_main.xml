@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+    
+	<RelativeLayout
+	    android:id="@+id/viewlayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/drawingMode"
+	    android:background="@drawable/img_pizarrapeq2" >
+
+	</RelativeLayout>
+
+	    <RelativeLayout
+	        android:id="@+id/drawingMode"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:background="#2EA313"
+	         >
+
+	        <ImageButton
+	            android:id="@+id/btn_genera_jugador1"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10sp"
+	            android:contentDescription="jugador1"
+	            android:src="@drawable/jugador1" />
+
+	        <ImageButton
+	            android:id="@+id/btn_genera_jugador2"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10sp"
+	            android:layout_toRightOf="@+id/btn_genera_jugador1"
+	            android:contentDescription="jugador2"
+	            android:src="@drawable/jugador2" />
+
+	        <ImageButton
+	            android:id="@+id/btn_genera_balon"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10sp"
+	            android:layout_toRightOf="@+id/btn_genera_jugador2"
+	            android:contentDescription="balon"
+	            android:src="@drawable/balon" />
+
+	        <ImageButton
+	            android:id="@+id/btn_genera_cono"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10sp"
+	            android:layout_toRightOf="@+id/btn_genera_balon"
+	            android:contentDescription="cono"
+	            android:src="@drawable/cono" />
+
+	           <Button
+	            android:id="@+id/btn_dibujo_libre"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBottom="@+id/btn_genera_balon"
+	            android:layout_marginTop="10sp"
+	            android:layout_toRightOf="@+id/btn_genera_cono"
+	            android:background="@drawable/lapiz" />
+	           
+	            <Button
+	                android:id="@+id/deshacer"
+	                android:layout_width="40dp"
+	                android:layout_height="wrap_content"
+	                android:layout_alignBottom="@+id/btn_genera_balon"
+	                android:layout_marginTop="10sp"
+	                android:layout_toRightOf="@+id/btn_dibujo_libre"
+	                android:background="@drawable/icono_deshacer" />
+	            
+	              <Button
+	            android:id="@+id/btn_linea_recta"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBottom="@+id/btn_genera_balon"
+	            android:layout_marginTop="10sp"
+	            android:layout_toRightOf="@+id/deshacer"
+	            android:background="@drawable/lapiz" />
+
+	    </RelativeLayout>
+    
+</RelativeLayout>

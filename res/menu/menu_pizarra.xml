@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+     <item 
+      android:id="@+id/menu_color" 
+      android:title="@string/menu_color"
+	  android:icon="@drawable/ic_menu_color" 
+	  android:showAsAction="ifRoom|withText">
+	 </item>  
+
+	<item 
+	    android:id="@+id/menu_limpiar" 
+		android:title="@string/menu_limpiar" 
+		android:icon="@drawable/ic_menu_limpiar"
+		android:showAsAction="ifRoom|withText"> 
+	</item>
+
+	<item 
+	    android:id="@+id/menu_fichero" 
+	    android:title="@string/menu_fichero"
+		android:icon="@drawable/ic_menu_fichero"
+		android:showAsAction="ifRoom|withText">
+		
+		<menu xmlns:android="http://schemas.android.com/apk/res/android">
+			<item android:title="@string/menu_abrir"     android:id="@+id/menu_abrir"   /> 
+			<item android:title="@string/menu_eliminar"  android:id="@+id/menu_eliminar"/> 
+			<item android:title="@string/menu_guardar"   android:id="@+id/menu_guardar2"/> 
+		</menu>
+    </item>
+	
+</menu>
+	
+
+		

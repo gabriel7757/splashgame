@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	    
+    <string name="app_name">CoachApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">PLANIFICADOR DE EQUIPOS DE FÚTBOL</string>
+    
+    <string name="equipos">EQUIPOS</string>
+    <string name="ejercicios">EJERCICIOS</string>
+    <string name="pizarra">PIZARRA</string>
+    <string name="calendario">CALENDARIO</string>
+    <string name="relleno">|||||||||||||||||||||||||||||||||||||||||||||||||||</string>
+    
+    
+    <string name="ins_equipo">NUEVO EQUIPO</string>
+    <string name="edit_equipo">EDITAR EQUIPO</string>
+    <string name="crear_equipo">CREAR EQUIPO</string>
+    <string name="edit_jugador">EDITAR JUGADOR</string>
+    <string name="nuevo_jugador">NUEVO JUGADOR</string>
+    <string name="edit_ejercicio">EDITAR EJERCICIO</string>
+    <string name="nuevo_ejercicio">NUEVO EJERCICIO</string>
+    <string name="edit_entrenamiento">EDITAR ENTRENAMIENTO</string>
+    <string name="nuevo_entrenamiento">NUEVO ENTRENAMIENTO</string>    
+    
+    <string name="menu_delete_equipo">BORRAR EQUIPO</string>
+    <string name="menu_update_equipo">MODIFICAR EQUIPO</string>
+    <string name="menu_insert_jugador">INSERTAR JUGADOR</string>
+    <string name="menu_delete_jugador">BORRAR JUGADOR</string>
+    <string name="menu_update_jugador">MODIFICAR JUGADOR</string>
+    <string name="menu_insert_entrenamiento">INSERTAR ENTRENAMIENTO</string>
+    <string name="menu_delete_entrenamiento">BORRAR ENTRENAMIENTO</string>
+    <string name="menu_update_entrenamiento">MODIFICAR ENTRENAMIENTO</string>
+    <string name="menu_insert_ejercicio">INSERTAR EJERCICIO</string>
+    <string name="menu_delete_ejercicio">BORRAR EJERCICIO</string>
+    <string name="menu_update_ejercicio">MODIFICAR EJERCICIO</string>
+    
+    
+    <string name="equipos_lista_vacia">No hay equipos creados!</string>
+    <string name="ejercicios_lista_vacia">No hay ejercicios creados!</string>
+    <string name="jugadores_lista_vacia">No hay jugadores en el equipo!</string>
+    <string name="entrenamientos_lista_vacia">No hay entrenamientos previstos!</string>
+    <string name="entrenamientos_lista_vacia_dia">No hay entrenamientos previstos para este día!</string>
+    <string name="no_hay_pizarra">Pizarra no disponible</string>
+    <string name="Equipos">Equipos</string>
+    <string name="Ejercicios">Ejercicios</string>
+    <string name="Pizarra">Pizarra</string>
+    <string name="insertar">Insertar</string>
+    <string name="guardar">Guardar</string>
+    <string name="guardar_entr">Guardar entrenamiento</string>
+    <string name="nombre_equipo">Nombre del Equipo</string>
+    <string name="nombre_ejercicio">Nombre del Ejercicio</string>
+    <string name="nombre_entrenamiento">Nombre del Entrenamiento</string>
+    <string name="num_jugadores">Nº de Jugadores</string>
+    <string name="nombre_jug">Nombre del Jugador</string> 
+    <string name="apellidos">Apellidos</string>
+    <string name="equipo_nombre">Nombre del Equipo: </string>  
+    <string name="division_equipo">Division: </string>
+    <string name="editar_equipo">Editar Equipo</string>
+    <string name="editar_jugador">Editar Jugador</string>
+    <string name="button_save">Guardar</string>
+    <string name="tlfono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="posicion">Posicion</string>
+    <string name="caracteristicas">Características</string>
+    
+    <!-- MENU PIZARRA -->
+    
+    <string name="menu_guardar">Guardar</string>
+    <string name="menu_limpiar">Limpiar</string>
+    <string name="menu_abrir">Abrir</string>
+    <string name="menu_eliminar">Eliminar</string>
+    <string name="menu_fichero">Ejercicio...</string>
+    <string name="menu_deshacer">Deshacer</string>
+    <string name="menu_color">Color</string>
+    
+            
+                
+
+
+</resources>

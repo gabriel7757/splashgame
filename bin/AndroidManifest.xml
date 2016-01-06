@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rodri.coach.application2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19"/>
+	
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_apli"
+        android:label="@string/app_name"   
+        >
+        
+       <activity 
+           android:name="com.gabri.coach.application2.SplashActivity"         
+           android:theme="@style/Theme.Sherlock.NoActionBar"
+           android:screenOrientation="portrait"
+           >   
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        
+        </activity>
+        <activity  android:label="CoachApp" android:name="com.gabri.coach.application2.CoachActivity" android:screenOrientation="portrait">
+            
+        </activity>
+        <activity android:label="Equipos"  android:name="com.gabri.coach.application2.EquiposCoach" >
+            
+        </activity>
+		<activity android:label="Ejercicios" android:name="com.gabri.coach.application2.EjerciciosCoach">
+		       
+		</activity>
+		<activity android:label="Pizarra" android:name="com.gabri.coach.application2.PizarraCoach"  android:screenOrientation="portrait">
+		   
+		</activity>
+		<activity android:label="Editar Equipo"  android:name="com.gabri.coach.application2.EquiposEditCoach">
+		    
+		</activity>			
+		<activity android:label="Jugadores"  android:name="com.gabri.coach.application2.JugadoresCoach">
+		   
+		</activity>
+		<activity android:label="Editar Jugador"   android:name="com.gabri.coach.application2.JugadoresEditCoach">
+		     
+		</activity>
+		<activity android:label="Informacion del jugador"  android:name="com.gabri.coach.application2.JugadoresDatosCoach">
+		    
+		</activity>
+		<activity android:label="Entrenamientos"   android:name="com.gabri.coach.application2.EntrenamientosCoach">
+		  
+		</activity>
+		<activity android:label="Editar Entrenamiento"  android:name="com.gabri.coach.application2.EntrenamientosEditCoach">
+		    
+		</activity>
+		<activity android:name="com.gabri.coach.application2.EntrenamientosEjerciciosCoach">
+		     
+		</activity>
+		<activity android:label="Editar Ejercicios" android:name="com.gabri.coach.application2.EjerciciosEditCoach">
+		    
+		    
+		     
+		</activity>
+		<activity android:label="Calendario" android:name="com.gabri.coach.application2.CalendarView"  android:screenOrientation="portrait">
+
+		    </activity>
+		<activity android:label="Configuración lista divisiones" android:name="com.gabri.coach.application2.ConfigSpinnerCoach">
+		    </activity>
+		<activity  android:name="com.gabri.coach.application2.VerDiaCalendario">
+		    </activity>
+		<activity  
+		    android:name="com.gabri.coach.application2.GuardarEjercicio"
+		    android:windowSoftInputMode="stateHidden"
+		    android:theme="@style/Theme.Sherlock.NoActionBar" 
+		    >       
+		    
+		    </activity>
+		<activity  android:name="com.gabri.coach.application2.CargarEjercicio"
+		    android:theme="@style/Theme.Sherlock.NoActionBar">
+		    
+		    
+		    </activity>
+		<activity  android:name="com.gabri.coach.application2.EliminarEjercicio">
+		    </activity>
+		    
+		<activity  android:name="com.gabri.coach.application2.FiltroArchivos">
+		    </activity>
+		    
+		<activity  android:name="com.gabri.coach.application2.ListadoArchivos">
+		    </activity>
+		    
+		<activity  android:name="com.gabri.coach.application2.Pacceso_ejercicios">
+		    </activity>
+    </application>
+</manifest>

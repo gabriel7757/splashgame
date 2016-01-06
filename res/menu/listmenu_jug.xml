@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <item
+        android:id="@+id/menu_insertar_jug"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/nuevo_jugador"/>  
+</menu>

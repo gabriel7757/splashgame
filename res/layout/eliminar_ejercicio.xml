@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools">
+    
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:ignore="UselessParent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Eliminar ejercicio"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/TextView01"
+                android:layout_marginLeft="10dp"
+                android:background="#ffffff" >
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" >
+
+            <Button
+                android:id="@+id/eliminarAceptar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@+id/eliminarCancelar"
+                android:text="Aceptar" />
+
+            <Button
+                android:id="@+id/eliminarCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="Cancelar" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listaArchivos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/RelativeLayout01"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/RelativeLayout01"
+            android:layout_alignLeft="@+id/listaArchivos"
+            android:layout_marginLeft="10dp"
+            android:text="Ejercicio:" />
+
+        <TextView
+            android:id="@+id/tvNombreEjercicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textView1" />
+    </RelativeLayout>
+
+</RelativeLayout>

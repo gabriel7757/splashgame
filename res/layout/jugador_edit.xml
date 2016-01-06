@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+	  
+
+		<ImageView
+    	    android:id="@+id/imagenJugador"
+    	    android:layout_width="95dp"
+    	    android:layout_height="109dp"
+    	    android:layout_marginLeft="40dp"
+    	    android:layout_marginTop="10dp"
+    	    android:src="@drawable/contact" />
+    	
+    	<Button
+       		android:id="@+id/botonAgregarFotoGaleria"
+        	android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+        	android:layout_alignBottom="@+id/imagenJugador"
+        	android:layout_marginLeft="16dp"
+        	android:layout_toRightOf="@+id/imagenJugador"
+        	android:text="Insertar foto" />
+    	
+			<EditText
+			    android:id="@+id/jugador_nombre"
+			    android:layout_width="244dp"
+			    android:layout_height="wrap_content"
+			    android:layout_alignLeft="@+id/imagenJugador"
+			    android:layout_below="@+id/imagenJugador"
+			    android:layout_marginTop="5dp"
+			    android:ems="10"
+			    android:hint="@string/nombre_jug"
+			    android:textSize="18sp" >
+			 <requestFocus />
+			</EditText>
+			
+			<EditText
+			    android:id="@+id/jugador_apellidos"
+			    android:layout_width="244dp"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@+id/jugador_nombre"
+			    android:layout_marginLeft="40dp"
+			    android:layout_marginTop="5dp"
+			    android:ems="10"
+			    android:hint="@string/apellidos"
+			    android:textSize="18sp" >
+			    </EditText>
+			
+			<EditText
+			    android:id="@+id/jugador_email"
+			    android:layout_width="244dp"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@+id/jugador_apellidos"
+			    android:layout_marginLeft="40dp"
+			    android:layout_marginTop="5dp"
+			    android:ems="10"
+			    android:hint="@string/email"
+			    android:textSize="18sp" />
+			
+			<Spinner
+			    android:id="@+id/posi"
+ 				android:layout_width="244dp"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@+id/jugador_email"
+			    android:layout_marginLeft="40dp"
+			    android:layout_marginTop="5dp"
+       			 />
+		
+
+			<EditText
+			    android:id="@+id/jugador_caracteristicas"
+			    android:layout_width="244dp"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@+id/posi"
+			    android:layout_marginLeft="40dp"
+			    android:layout_marginTop="5dp"
+			    android:maxLength="30"
+			    android:ems="10"
+			    android:hint="@string/caracteristicas"
+			    android:textSize="18sp" />
+
+				
+			 <EditText
+			    android:id="@+id/jugador_telefono"
+			    android:layout_width="245dp"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@+id/jugador_caracteristicas"
+			    android:layout_marginLeft="40dp"
+			    android:layout_marginTop="5dp"
+			    android:ems="10"
+			    android:numeric="integer"
+   				android:inputType="number"
+			    android:hint="@string/tlfono"
+			    android:textSize="18sp" />
+
+				<Button
+				    android:id="@+id/botonLimpiar"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignRight="@+id/jugador_telefono"
+				    android:layout_below="@+id/jugador_telefono"
+				    android:layout_marginTop="14dp"
+				    android:text="Limpiar" />
+
+				<Button
+				    android:id="@+id/botonGuardar"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignBaseline="@+id/botonLimpiar"
+				    android:layout_alignBottom="@+id/botonLimpiar"
+				    android:layout_marginRight="16dp"
+				    android:layout_toLeftOf="@+id/botonLimpiar"
+				    android:text="Guardar" />
+
+				<Button
+				    android:id="@+id/botonAgregarFotoCamara"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_above="@+id/botonAgregarFotoGaleria"
+				    android:layout_alignLeft="@+id/botonAgregarFotoGaleria"
+				    android:text="Tomar foto" />
+
+</RelativeLayout>

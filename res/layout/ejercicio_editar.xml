@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical">
+  
+  
+   <LinearLayout 
+        android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/nombre_ejercicio" />
+			
+		<EditText 
+		    android:id="@+id/ejercicio_nombre" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+			
+	</LinearLayout>
+	
+	  <LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/num_jugadores" />
+			
+		<EditText android:id="@+id/ejercicio_njugadores" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+			
+	</LinearLayout>
+  
+  	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Descripcion" />
+		
+	<EditText android:id="@+id/ejercicio_descripcion" 
+		android:layout_width="fill_parent"
+		android:layout_height="200px"
+		android:layout_weight="1"
+		android:scrollbars="vertical" />
+	
+	<Button android:id="@+id/btn_crear_imagen_ejercicio" 
+	  	android:text="Crear Imagen del Ejercicio"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		
+			
+	<Button android:id="@+id/btn_save_ejercicio" 
+	  	android:text="@string/button_save"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />	
+  
+  
+</LinearLayout>

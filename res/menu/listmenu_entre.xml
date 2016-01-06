@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <item
+        android:id="@+id/menu_insert_entrenamiento"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Insertar entrenamiento"/>
+    
+      <item
+        android:id="@+id/ver_jugadores"
+        android:showAsAction="always"
+        android:icon="@drawable/ojo"
+        android:title="Ver lista de jugadores"/>
+      
+        <item
+        android:id="@+id/ver_calendario"
+        android:showAsAction="always"
+        android:icon="@drawable/calendar"
+        android:title="Ver calendario"/>
+ 
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="array_divisiones">
+        <item></item>
+    	<item>Primera Division</item>
+		<item>Segunda Division</item>
+		<item>Segunda Division B</item>
+		<item>Tercera Division</item>
+		<item>Divisiones Regionales</item>	
+	</string-array>    
+</resources>

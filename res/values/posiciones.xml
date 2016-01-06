@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="posiciones">
+        <item></item>
+    	<item>POR</item>
+		<item>DFC</item>
+		<item>LD</item>
+		<item>MP</item>
+		<item>MC</item>
+		<item>MCD</item>
+		<item>MD</item>
+		<item>MI</item>
+		<item>CRR</item>
+		<item>DC</item>
+		<item>ED</item>
+		<item>EI</item>
+		<item>SP</item>	
+	</string-array>    
+</resources>

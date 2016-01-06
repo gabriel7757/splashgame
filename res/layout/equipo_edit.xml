@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+	  
+    	<ImageView
+    	    android:id="@+id/imagenLogo"
+    	    android:layout_width="95dp"
+    	    android:layout_height="109dp"
+    	    android:layout_marginLeft="40dp"
+    	    android:layout_marginTop="20dp"
+    	    android:src="@drawable/contact" />
+    	
+    	<Button
+       	android:id="@+id/botonAgregarLogoGaleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imagenLogo"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/imagenLogo"
+        android:text="Insertar logo" />
+
+		<TextView 
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="@+id/imagenLogo"
+       
+        android:layout_below="@+id/imagenLogo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/equipo_nombre"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+		
+		 <EditText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="5dp" >
+
+        <requestFocus />
+    </EditText>
+	
+		 
+		<TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/division_equipo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinner_division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_division"
+        android:layout_centerHorizontal="true"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/confirm"
+        android:layout_alignBottom="@+id/confirm"
+        android:layout_alignParentRight="true"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/botonAgregarLogoCamara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/botonAgregarLogoGaleria"
+        android:layout_alignTop="@+id/imagenLogo"
+        android:text="Capturar logo" />
+
+</RelativeLayout>

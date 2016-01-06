@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    
+    <Button
+        android:id="@+id/btn_ejercicios"
+        android:layout_width="85dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="61dp"
+        android:background="@color/icono_ejercicios" />
+
+    <Button
+        android:id="@+id/btn_calendario"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignBaseline="@+id/btn_pizarra"
+        android:layout_alignBottom="@+id/btn_pizarra"
+        android:layout_alignLeft="@+id/btn_equipos"
+        android:background="@color/icono_calendario" />
+    
+    <TextView
+         android:id="@+id/txtCalendario"
+         android:layout_width="70dp"
+         android:layout_height="40dp"
+         android:layout_alignLeft="@+id/btn_calendario"
+         android:layout_below="@+id/btn_calendario"
+         android:layout_marginRight="14dp"
+         android:layout_toLeftOf="@+id/btn_ejercicios"
+         android:text="CALENDARIO"
+         android:textColor="#000000"
+         android:textSize="18sp"
+         android:textStyle="bold" />
+    
+    <TextView
+	        android:id="@+id/dateDisplay"
+	        android:layout_width="match_parent"
+	        android:layout_height="70dp"
+	        android:layout_weight="0.05"
+	        android:gravity="center"
+	        android:textColor="#000000"
+	        android:textSize="5sp" 
+	        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_equipos"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:layout_alignBaseline="@+id/btn_ejercicios"
+        android:layout_alignBottom="@+id/btn_ejercicios"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:background="@color/icono_equipos" />
+
+    <Button
+        android:id="@+id/btn_pizarra"
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_ejercicios"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/icono_pizarra" />
+
+    <TextView
+        android:id="@+id/txtPizarra"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_pizarra"
+        android:layout_alignRight="@+id/btn_ejercicios"
+        android:layout_below="@+id/btn_pizarra"
+        android:layout_marginLeft="16sp"
+        android:text="PIZARRA"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtEjercicios"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_pizarra"
+        android:layout_alignRight="@+id/btn_pizarra"
+        android:layout_below="@+id/btn_ejercicios"
+        android:layout_centerVertical="true"
+        android:text="EJERCICIOS"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtEquipos"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/txtEjercicios"
+        android:layout_alignBottom="@+id/txtEjercicios"
+        android:layout_alignLeft="@+id/btn_calendario"
+        android:layout_toLeftOf="@+id/btn_pizarra"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/btn_equipos"
+        android:text="EQUIPOS"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
